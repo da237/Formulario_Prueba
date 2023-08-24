@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <nav>
+          <ul>
+            <li><a href="index.html">Tecnologìa</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="matematicas.html">Matematicas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <p id="timeRest">Tiempo Restante: 1:00</p>
+      <form action="posthistoria.php" method="post" id="formulario">
+        1.Que significan las siglas a.c:
+        <br />
+        <br />
+
+        <div id="respuesta1">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              value="1"
+              id="respuesta1.1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Ahora como entonces
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              value="2"
+              id="respuesta1.2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Antes de cristo
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              value="3"
+              id="respuesta1.3"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2"> Despues de un tiempo </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta1"
+              value="4"
+              id="respuesta1.4"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Vendran pronto
+            </label>
+          </div>
+        </div>
+        <br />
+        2.El ingles es el oidioma predominante en el mund:
+        <br />
+        <br />
+        <div id="respuesta2">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta2"
+              value="1"
+              id="respuesta2.1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1"> Si </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta2"
+              value="2"
+              id="respuesta2.2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2"> No </label>
+          </div>
+        </div>
+
+        <br />
+        3.En que ano acabo la segunda guerra mundial:
+        <br />
+        <br />
+        <div id="respuesta3">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              value="1"
+              id="respuesta3.1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              1945
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              value="2"
+              id="respuesta3.2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              2000
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              value="3"
+              id="respuesta3.3"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              1900
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta3"
+              value="4"
+              id="respuesta3.4"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Aun no acaba
+            </label>
+          </div>
+        </div>
+        <br />
+        4.Quien fue Juan pablo ll:
+        <br />
+        <br />
+        <div id="respuesta4">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              value="1"
+              id="respuesta4.1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Padre
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              value="2"
+              id="respuesta4.2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Matematico
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              value="3"
+              id="respuesta4.3"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Mecanico
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta4"
+              value="4"
+              id="respuesta4.4"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Arquitecto
+            </label>
+          </div>
+        </div>
+
+        <br />
+        5.Quien descubrio America:
+        <br />
+        <br />
+
+        <div id="respuesta5">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              value="1"
+              id="respuesta5.1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Simon Bolivar
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              value="2"
+              id="respuesta5.2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Mohamed Allì
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              value="3"
+              id="respuesta5.3"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Nadie
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="respuesta5"
+              value="4"
+              id="respuesta5.4"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              La Reina Isabel
+            </label>
+          </div>
+        </div>
+        <br />
+
+        <input type="submit" class="btn btn-primary" onclick="" />
+      </form>
+    </div>
+
+    <br>
+
+    <footer>
+      <p class="text-bg-dark  text-center">2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
